@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us-Eyal Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/eyallogo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="products.html">Products</a></li>
+                    <li> <a href="about.html">About</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
+                    <li><a href="account.html"><i class="bx bx-user"></i></a></li>
+                </ul>
+            </nav>
+           <a href="cart.html"> <img src="images/cart.png" width="20px" height="20px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+         </div>
+        </div>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <h1>Work with us!</h1>
+                    <p>Eyal Studio is an online designer boutique specializing in Women’s ethnic wear. We do not believe in marketplace model as we feel that customer does not get the right product @ right price. Hence we bring product in house, have a thorough quality check, get the best deals from suppliers and sell at minimum profit to the customers.</p>
+                     <br>
+                     <p>Our team has grown significantly in the last few years and now we are looking out for individuals who can take it to the next level. We are hiring energetic, enthusiastic and passionate individuals who do not fear to try their hands on new things. If you think you are fit for one of the positions below, kindly mail across your resume to <strong>hr@eyalstudio.com</strong>  with Subject as the Job Title.</p>
+                </div>
+                <div class="col-3">
+                    <h4><strong>Job Description: Fashion Designer and Production Executive</strong></h4>
+                    <p>Location: Trichy, Tamilnadu</p>
+                    <p>We are looking for a fashion designer to help us scale stitched garments category on our website. Person will be responsible for designing and production of the garments. </p>
+                    
+                    
+                   <h4><strong>Job Responsibilities:</strong> </h4>
+                   <br>
+                   
+                    <ul class="list-style">
+                        <li>Designing new products patterns in women’s ethnic wear</li>
+                        <li>Conducting market research to identify new trends, fabrics and techniques, and seeking design inspiration</li>
+                        <li>Collaborating with team members to select seasonal themes, make edits to line, and create new concepts</li>
+                        <li>Keep up to date with emerging fashion trends as well as general trends relating to fabrics, colours and shapes</li>
+                        <li>Selecting fabrics and trims Creating production sketches for development packages</li>
+                        <li>Collaborating with technical designer to ensure development packages are accurate</li>
+                        <li>Quality check of production pieces</li>
+                        <li>Looking after production from various vendors</li>
+                        <li>Develop a pattern that is cut and sewn into sample garments and supervise the creation</li>
+                    </ul>
+                    <br>
+                    <h4><strong>Desired Candidate:</strong></h4></p>
+                    <ul class="list-style">
+                        <li>Excellent communication skills with minimum 2-year experience</li>
+                        <li>Proven designing skills in ethnic wear</li>
+                        <li>Diploma in fashion design</li>
+                        <li>Up-to-date with the latest trends and best practices in fashion designing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/eyal.png" >
+                <p>Our purpose is to sustainably make the pleasure and Benefits of accessible to the many</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Threads</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 - Easy Tutorials</p>
+    </div>
+   </div>
+   <script>
+    var MenuItems = document.getElementById("MenuItems")
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight="200px")
+        {
+            MenuItems.style.maxHeight="0px"
+        }
+    }
+   </script>
+
+   <!---------js for toggle form------------>
+   <script>
+       var LoginForm = document.getElementById("LoginForm");
+       var Regform = document.getElementById("Regform");
+       var Indicator = document.getElementById("Indicator");
+
+       function login(){
+        Regform.style.transform = "translateX (0px)";
+        LoginForm.style.transform = "translateX (0px)";
+       
+       }
+       function register(){
+        Regform.style.transform = "translateX (300px)";
+        LoginForm.style.transform = "translateX (300px)";
+        
+       }
+
+   </script>
+
+
+
+</body>
+</html>
